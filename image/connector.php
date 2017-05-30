@@ -23,8 +23,8 @@ $opts = array(
     array(
       'id'            => '1',
       'driver'        => 'Trash',
-      'path'          => '../files/.trash/',
-      'tmbURL'        => dirname($_SERVER['PHP_SELF']) . '/../files/.trash/.tmb/',
+      'path'          => '/data/.trash/',
+      'tmbURL'        => dirname($_SERVER['PHP_SELF']) . '/data/.trash/.tmb/',
       //'uploadDeny'    => array('all'),                // Recomend the same settings as the original volume that uses the trash
       'uploadAllow'   => array('all'),// Same as above
       'uploadOrder'   => array('deny', 'allow'),      // Same as above
